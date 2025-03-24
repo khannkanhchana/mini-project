@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-gray-900 text-white">
+    
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-6 bg-gray-800 position-sticky top-0 z-50 display block">
+        <h1 class="text-lg font-bold">portfolio</h1>
+        <ul class="flex space-x-6">
+            <li><a href="/homepage.html" class="hover:text-blue-400">Home</a></li>
+            <li><a href="/aboutpage.html" class="hover:text-blue-400">About</a></li>
+            <li><a href="/servicepage.html" class="hover:text-blue-400">Services</a></li>
+            <li><a href="/contact.html" class="hover:text-blue-400">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class=" mt-2 max-w-xl mx-auto py-20">
+        <img src="/Image/photo_2025-03-17_14-57-15.jpg" alt="Profile" class="w-40 h-40 mx-auto rounded-full border-4 border-gray-700">
+        <div class="text-left">
+        <h2 class="text-3xl mt-4">Hello It's Me</h2>
+        <h1 class="text-4xl font-bold text-blue-400">Khann Kanhchana</h1>
+        <p class="text-lg">And I'm a <span class="text-blue-400">Frontend Developer</span></p>
+        <p class="text-lg mt-2 max-w-xl mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Error cum atquelaboriosam eos laborum voluptas,beatae tenetur velit nam 
+             nobis eaquenulla iusto natus cupiditate debitis.</p>
+        <button class="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded">Download CV</button>
+    </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-gray-800 p-10 text-center">
+        <img src="/Image/Photo.jpg" alt="About Me" class="w-39 h-40 mx-auto rounded-full border-4 border-gray-700">
+        <h2 class="text-2xl font-bold mt-4">About Me</h2>
+        <p class="mt-2 max-w-xl mx-auto">A Front-End Developer is someone who creates
+            websites and web applications. The difference 
+            between Front-End and Back-End is that
+            Front-End refers to how a web page looks, while 
+            back-endrefers to how it works. You can think of 
+            Front-End as client-side and Back-End as server-side..</p>
+        <button class="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded">See more</button>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 text-center">
+        <h2 class="text-3xl font-bold text-blue-400">Our Services</h2>
+        <div class="flex flex-wrap justify-center mt-8 gap-6">
+            <div class="bg-purple-600 p-6 w-72 rounded-lg">
+                <h3 class="text-lg font-bold">UX/UI Designer</h3>
+                <p class="text-sm mt-2">A UX/UI designer creates user-friendly interfaces for websites and apps...</p>
+            </div>
+            <div class="bg-gray-700 p-6 w-72 rounded-lg">
+                <h3 class="text-lg font-bold">Web Development</h3>
+                <p class="text-sm mt-2">Web development involves creating and maintaining websites...</p>
+            </div>
+            <div class="bg-purple-600 p-6 w-72 rounded-lg">
+                <h3 class="text-lg font-bold">Digital Marketing</h3>
+                <p class="text-sm mt-2">Digital marketing uses online channels to reach target audiences...</p>
+            </div>
+        </div>
+    </section>
+    <section class="flex items-center justify-center min-h-screen bg-gray-900">
+       
+            <div class="w-full max-w-4xl p-6 bg-gray-800 rounded-lg shadow-lg">
+                <h2 class="text-center text-xl font-semibold text-cyan-400 mb-6">Our Project</h2>
+                <div class="grid grid-cols-2 gap-4 p-10 m-10" >
+                    <img src="/Image/download (1).jpg" alt="Project 1" class="rounded-lg shadow-md">
+                    <img src="/Image/download2.jpg" alt="Project 2" class="rounded-lg shadow-md">
+                    <img src="/Image/download3.jpg" alt="Project 3" class="rounded-lg shadow-md">
+                    <img src="/Image/download4.jpg" alt="Project 4" class="rounded-lg shadow-md">
+                </div>
+            </div>
+    </section>
+    <section class="flex items-center justify-center min-h-screen bg-gray-900">
+        
+            <div class="w-full max-w-md p-6 bg-gray-800 rounded-lg shadow-lg">
+                <h2 class="text-center text-xl font-semibold text-cyan-400 mb-4">Contact Me</h2>
+                <form>
+                    <div class="grid grid-cols-2 gap-4">
+                        <input type="text" placeholder="First Name" class="w-full p-2 bg-gray-700 text-gray-300 rounded-md outline-none focus:ring-2 focus:ring-cyan-400">
+                        <input type="text" placeholder="Last Name" class="w-full p-2 bg-gray-700 text-gray-300 rounded-md outline-none focus:ring-2 focus:ring-cyan-400">
+                        <input type="text" placeholder="Mob.Number" class="w-full p-2 bg-gray-700 text-gray-300 rounded-md outline-none focus:ring-2 focus:ring-cyan-400">
+                        <input type="email" placeholder="Email Address" class="w-full p-2 bg-gray-700 text-gray-300 rounded-md outline-none focus:ring-2 focus:ring-cyan-400">
+                    </div>
+                    <textarea placeholder="Your Message" class="w-full mt-4 p-2 bg-gray-700 text-gray-300 rounded-md outline-none focus:ring-2 focus:ring-cyan-400 h-32"></textarea>
+                    <button class="w-full mt-4 p-2 bg-cyan-500 text-white rounded-md hover:bg-cyan-600 transition">Send</button>
+                </form>
+            </div>
+        
+    </section>
+</body>
+</html>
